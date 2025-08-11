@@ -20,23 +20,47 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        img {
+        h1 {
+            color: #880e4f; /* สีชมพูเข้ม */
+        }
+        /* CSS สำหรับ Gallery รูปภาพ */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* ระยะห่างระหว่างรูป */
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: calc(50% - 5px); /* ทำให้รูปภาพมีขนาด 50% ของพื้นที่และเผื่อระยะห่าง */
             max-width: 100%;
             height: auto;
             border-radius: 8px;
         }
-        h1 {
-            color: #880e4f; /* สีชมพูเข้ม */
+        .text-section {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="container text-section">
+        <h1>สุขสันต์วันแม่ครับ</h1>
+        <p>สุขสันต์วันแม่ครับ ฟร้อนเขียนเว็ปนี้มาให้แม่ ฟร้อนรักแม่มากๆเลย ขอให้แม่มีความสุขมากๆ สุขภาพร่างกายแข็งแรง แม่ห้ามฝืนตัวเองเยอะ พักผ่อนให้มากๆ ดูแลตัวเองด้วยนะครับ ฟร้อนรักแม่ที่สุดเลยครับ แม่คือผู้หญิงที่วิเศษที่สุดในโลก ขอบคุณสำหรับความรักและความทุ่มเททั้งหมดนะครับ ดีใจที่เกิดมาเป็นลูกแม่นะครับ</p>
+    </div>
+
     <div class="container">
-        <h1>สุขสันต์วันแม่ครับ/ค่ะ!</h1>
-        <p>แม่คือผู้หญิงที่วิเศษที่สุดในโลก ขอบคุณสำหรับความรักและความทุ่มเททั้งหมดนะครับ/คะ</p>
-        <img src="https://example.com/your-image-url.jpg" alt="รูปภาพสำหรับแม่">
-        <p>รักแม่นะครับ/คะ</p>
+        <div class="gallery">
+            <img src="https://drive.google.com/uc?id=1p29NyMs6LSbUiSIhKgnTDO-2orCll4NV" alt="รูปภาพ 1">
+            <img src="https://drive.google.com/uc?id=1ob1A2nzB5zK2Fe6NtLfpeQysy-ISb-67" alt="รูปภาพ 2">
+            <img src="https://drive.google.com/uc?id=1p5E8dtRA4ppo6ud1ayeINKVcDYnJoI0O" alt="รูปภาพ 3">
+            <img src="https://drive.google.com/uc?id=1ou11LR43eIp9EoxQRtGrQeJKuxZsT3AX" alt="รูปภาพ 4">
+            <img src="https://drive.google.com/uc?id=1odEbz6fm9q5qqxac-cRBArlHuyetwqJt" alt="รูปภาพ 5">
+            <img src="https://drive.google.com/uc?id=1osVH1v3eP9ON547erQIRFapr5WGHyGgC" alt="รูปภาพ 6">
+        </div>
+    </div>
+    
+    <div class="container" style="margin-top: 20px;">
+        <p>รักแม่นะครับ</p>
     </div>
 </body>
-
 </html>
