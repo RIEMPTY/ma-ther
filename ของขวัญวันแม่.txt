@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ของขวัญวันแม่</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fce4ec; /* สีชมพูอ่อน */
+            color: #4a148c; /* สีม่วงเข้ม */
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #880e4f; /* สีชมพูเข้ม */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>สุขสันต์วันแม่ครับ/ค่ะ!</h1>
+        <p>แม่คือผู้หญิงที่วิเศษที่สุดในโลก ขอบคุณสำหรับความรักและความทุ่มเททั้งหมดนะครับ/คะ</p>
+        <img src="https://example.com/your-image-url.jpg" alt="รูปภาพสำหรับแม่">
+        <p>รักแม่นะครับ/คะ</p>
+    </div>
+</body>
+</html>
